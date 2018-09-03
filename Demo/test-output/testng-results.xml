@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5446" started-at="2018-08-29T09:50:54Z" finished-at="2018-08-29T09:50:59Z">
+  <suite name="Suite" duration-ms="10596" started-at="2018-09-03T07:25:39Z" finished-at="2018-09-03T07:25:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5446" started-at="2018-08-29T09:50:54Z" finished-at="2018-08-29T09:50:59Z">
-      <class name="com.tests.demo.Assign">
-        <test-method status="PASS" signature="assign()[pri:0, instance:com.tests.demo.Assign@5c7fa833]" name="assign" duration-ms="5413" started-at="2018-08-29T15:20:54Z" finished-at="2018-08-29T15:20:59Z">
+    <test name="Test" duration-ms="10596" started-at="2018-09-03T07:25:39Z" finished-at="2018-09-03T07:25:50Z">
+      <class name="com.tests.demo.AssignTest">
+        <test-method status="PASS" signature="assign()[pri:0, instance:com.tests.demo.AssignTest@6379eb]" name="assign" duration-ms="914" started-at="2018-09-03T12:55:45Z" finished-at="2018-09-03T12:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assign -->
-      </class> <!-- com.tests.demo.Assign -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.tests.demo.AssignTest -->
+      <class name="com.tests.demo.CreateAndDeleteIssueTest">
+        <test-method status="PASS" signature="createAndDeleteIssue()[pri:0, instance:com.tests.demo.CreateAndDeleteIssueTest@294425a7]" name="createAndDeleteIssue" duration-ms="771" started-at="2018-09-03T12:55:46Z" finished-at="2018-09-03T12:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteIssue -->
+      </class> <!-- com.tests.demo.CreateAndDeleteIssueTest -->
+      <class name="com.tests.demo.UpdateCommentTest">
+        <test-method status="PASS" signature="updateComment()[pri:0, instance:com.tests.demo.UpdateCommentTest@4cc451f2]" name="updateComment" duration-ms="815" started-at="2018-09-03T12:55:44Z" finished-at="2018-09-03T12:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComment -->
+      </class> <!-- com.tests.demo.UpdateCommentTest -->
+      <class name="com.tests.demo.CreateIssueAndComment">
+        <test-method status="PASS" signature="createIssueAndComment()[pri:0, instance:com.tests.demo.CreateIssueAndComment@9f116cc]" name="createIssueAndComment" duration-ms="995" started-at="2018-09-03T12:55:49Z" finished-at="2018-09-03T12:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssueAndComment -->
+      </class> <!-- com.tests.demo.CreateIssueAndComment -->
+      <class name="com.tests.demo.CreateIssueTest">
+        <test-method status="PASS" signature="createIssue()[pri:0, instance:com.tests.demo.CreateIssueTest@79924b]" name="createIssue" duration-ms="5024" started-at="2018-09-03T12:55:39Z" finished-at="2018-09-03T12:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+      </class> <!-- com.tests.demo.CreateIssueTest -->
+      <class name="com.tests.demo.GetIssueTest">
+        <test-method status="PASS" signature="getIssue()[pri:0, instance:com.tests.demo.GetIssueTest@67d48005]" name="getIssue" duration-ms="2018" started-at="2018-09-03T12:55:47Z" finished-at="2018-09-03T12:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssue -->
+      </class> <!-- com.tests.demo.GetIssueTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

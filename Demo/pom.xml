@@ -3,6 +3,34 @@
   <groupId>RestAssured</groupId>
   <artifactId>Demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <profiles>
+  <profile>
+  <id>Jira</id>
+  <build>
+  <resources>  
+    <resource>
+        <directory>src/main/java/Com/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+      </resources>
+<pluginManagement>
+   <plugins>  
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>jiratestng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+   </plugins> 
+   </pluginManagement>  
+</build>
+  </profile>
+  </profiles>
+
   <dependencies>
   <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
@@ -34,8 +62,29 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.11</version>
-    <scope>test</scope>
 </dependency>
-  
-  </dependencies>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.8.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.8.2</version>
+</dependency>
+  <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.0.7</version>
+</dependency>
+
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
+</dependencies>
 </project>

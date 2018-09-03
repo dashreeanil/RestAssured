@@ -1,0 +1,5 @@
+12:55:49.295 [main] DEBUG com.tests.demo.AssignTest - The script is to raise a defect and comment it
+12:55:49.416 [main] DEBUG com.tests.demo.AssignTest - The session name for jira is JSESSIONID
+12:55:49.586 [main] DEBUG com.tests.demo.AssignTest - The session id for jira is 279F17ED0C9CF24C8F412E3DA523BB77
+12:55:49.882 [main] DEBUG com.tests.demo.AssignTest - The respones generated after creating the bug is io.restassured.internal.RestAssuredResponseImpl@49293b43
+12:55:49.890 [main] DEBUG com.tests.demo.AssignTest - The issue id for bug created is 10421

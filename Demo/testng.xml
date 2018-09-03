@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+        <listener class-name="Com.resources.ExtentReporterNG"/>
+    </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.tests.demo.CreateIssueTest"/>
+      <class name="com.tests.demo.UpdateCommentTest"/>
+      <class name="com.tests.demo.AssignTest"/>
+      <class name="com.tests.demo.CreateAndDeleteIssueTest"/>
+      <class name="com.tests.demo.GetIssueTest"/>
+      <class name="com.tests.demo.CreateIssueAndComment"/>
+<!--       <class name="com.tests.demo.EditIssueTest"/>
+ -->    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
